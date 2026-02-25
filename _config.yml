@@ -1,0 +1,43 @@
+title: "CLEWs"
+logo: "/assets/img/CLEWsLogo.png"
+description: "The Climate, Land (Food), Energy and Water systems approach (CLEWs) focuses on assessing interlinkages between resource systems to minimize trade-offs and potentiate synergies."
+
+# This site is intended to be published as an Energy Modelling Tools project page:
+# https://energy-modelling-tools.github.io/clews/
+baseurl: "/clews"
+relative_permalinks: false
+permalink: "/stories/:title"
+
+# Remote Theme Configuration (shared across Energy Modelling Tools sites)
+remote_theme: energy-modelling-tools/page-template@main
+
+exclude:
+  - script
+  - vendor
+  - bower.json
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - readme.md
+  - package.json
+  - package-lock.json
+  - node_modules
+  - "*_tmp.html"
+  - "*_tmp.*"
+
+markdown: kramdown
+theme: null
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-theme-primer
+  - jekyll-seo-tag
+  - jekyll-avatar
+  - jekyll-redirect-from
+  - jekyll-coffeescript
+  - jekyll-sitemap
+  - jekyll-octicons
+
+sass:
+  style: :compressed
+  sass_dir: assets/css/

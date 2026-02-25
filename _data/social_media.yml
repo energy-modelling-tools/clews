@@ -1,0 +1,15 @@
+- name: Discord
+  icon: bi bi-discord
+  url: "#"
+
+- name: YouTube
+  icon: bi bi-youtube
+  url: https://www.youtube.com/watch?v=Fv427MUIjBw
+
+- name: LinkedIn
+  icon: bi bi-linkedin
+  url: https://www.linkedin.com/company/clews/posts/
+
+- name: GitHub
+  icon: bi bi-github
+  url: https://github.com/OSeMOSYS/CLEWs
