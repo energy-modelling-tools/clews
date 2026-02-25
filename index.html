@@ -12,92 +12,6 @@ permalink: /
   </div>
 </div><!-- ends .full-width that started in header.html -->
 
-<!-- <div class="container-lg p-responsive">
-  <div class="Box clearfix p-4 p-sm-5 col-md-7 mx-auto mt-6">
-    <div class="float-left">
-      <img class="d-block pr-4" style="width: 80px;" alt="FedRAMP Logo" src="{{"/assets/img/Fedramp-logo.svg" | relative_url}}">
-    </div>
-    <div class="overflow-hidden">
-      <p>GitHub is now Federal Risk and Authorization Management Program (FedRAMP) authorized.
-      </p>
-      <a href="{{"/fedramp/" | relative_url}}">Learn More {% octicon chevron-right height:18 class:"d-inline fill-blue ml-1" %}</a>
-    </div>
-  </div>
-</div> -->
-
-<!-- <section class="container-lg p-responsive py-5 py-md-6 my-lg-6">
-  <div class="clearfix gutter-spacious">
-    <div class="mb-3 mb-md-5 col-md-6 float-left">
-      <h2 class="alt-h3 mb-2">
-        {% octicon terminal height:28 class:"fill-blue d-inline mr-2" aria-label:terminal %}
-        Place Holder
-      </h2>
-      <p class="text-gray">PLACEHOLDER</p>
-    </div>
-    <div class="mb-3 mb-md-5 col-md-6 float-left">
-      <h2 class="alt-h3 mb-2">
-        {% octicon server height:28 class:"fill-blue d-inline mr-2" aria-label:server %}
-        Place Holder
-      </h2>
-      <p class="text-gray">PLACEHOLDER</p>
-    </div>
-  </div>
-
-  <div class="clearfix gutter-spacious">
-    <div class="mb-3 mb-md-5 col-md-6 float-left">
-      <h2 class="alt-h3 mb-2">
-        {% octicon beaker height:28 class:"fill-blue d-inline mr-2" aria-label:beaker %}
-        PLACEHOLDER
-      </h2>
-      <p class="text-gray">PLACEHOLDER</p>
-    </div>
-    <div class="mb-3 mb-md-5 col-md-6 float-left">
-      <h2 class="alt-h3 mb-2">
-        {% octicon tools height:28 class:"fill-blue d-inline mr-2" aria-label:tools %}
-        PLACEHOLDER
-      </h2>
-      <p class="text-gray">PLACEHOLDER</p>
-    </div>
-  </div>
-
-  <div class="clearfix gutter-spacious">
-    <div class="mb-3 mb-md-5 col-md-6 float-left">
-      <h2 class="alt-h3 mb-2">
-        {% octicon code height:28 class:"fill-blue d-inline mr-2" aria-label:code %}
-        PLACEHOLDER
-      </h2>
-      <p class="text-gray">PLACEHOLDER</p>
-    </div>
-    <div class="mb-3 mb-md-5 col-md-6 float-left">
-      <h2 class="alt-h3 mb-2">
-        {% octicon lock height:28 class:"fill-blue d-inline mr-2" aria-label:lock %}
-        PLACEHOLDER
-      </h2>
-      <p class="text-gray">PLACEHOLDER</p>
-    </div>
-  </div>
-
-  <div class="clearfix gutter-spacious">
-    <div class="mb-3 mb-md-5 col-md-6 float-left">
-      <h2 class="alt-h3 mb-2">
-        {% octicon globe height:28 class:"fill-blue d-inline mr-2" aria-label:globe %}
-        PLACEHOLDER
-      </h2>
-      <p class="text-gray">PLACEHOLDER</p>
-    </div>
-    <div class="mb-3 mb-md-5 col-md-6 float-left">
-      <h2 class="alt-h3 mb-2">
-        {% octicon checklist height:28 class:"fill-blue d-inline mr-2" aria-label:checklist %}
-        PLACEHOLDER
-      </h2>
-      <p class="text-gray">PLACEHOLDER</p>
-    </div>
-  </div> 
-
-  <p class="text-center">
-    <a href="{{ '/about/' | relative_url }}" class="btn btn-outline">Learn more about CLEWs;</a>
-  </p>
-</section>-->
 <h2 class="alt-h2 text-center mb-3 mt-lg-6" id="more-than-just-code">Highlights</h2>
 
 {% include frontpage_intro.html %}
@@ -116,22 +30,12 @@ permalink: /
   </div>
 </section>
 
-<!-- <div class="container mt-5">
-  <h2 class="alt-h2 text-center mb-3 mt-lg-6" id="more-than-just-code">Latest News from LinkedIn</h2>
-  <div class="primer-box" style="width: 80%; margin: 0 auto; text-align: center;">
-      <div class="embed-responsive embed-responsive-16by9"> -->
-          <!-- <iframe class="embed-responsive-item" src="https://widgets.sociablekit.com/linkedin-page-posts/iframe/25511315" height="400" allowfullscreen="" title="Embedded post"></iframe> -->
-          <!-- <iframe src='https://widgets.sociablekit.com/linkedin-page-posts/iframe/25511315' frameborder='0' width='100%' height='400'></iframe>          
-      </div>
-  </div>
-</div> -->
-
 <section class="">
   <div class="container-lg p-responsive py-5 py-md-6">
     <h2 class="alt-h2 text-center mb-3 mt-lg-6" id="join-the-revolution">The CLEWS community</h2>
     <!-- <p class="alt-lead text-gray text-center col-md-10 mx-auto">The CLEWS community</a>.</p> -->
   </div>
-  <div style="overflow: hidden;">
+  <div class="page-overflow-hidden">
     <!-- <div class="featured-orgs text-center p-2 m-2">
       {% for org in site.featured_orgs %}
       <a href="https://github.com/{{ org }}" class="animate-in">{% avatar user=org size=80 %}</a>
@@ -197,15 +101,11 @@ permalink: /
     <p class="f2-light text-white">
       {% for platform in site.data.social_media %}
       <!-- {{ platform.name }} -->
-      <a href="{{ platform.url }}" class="px-2" style="text-decoration: none !important;">
-          <i class="{{ platform.icon }} logo logo-hover py-3" style="font-size: 32px"></i>
+      <a href="{{ platform.url }}" class="px-2">
+          <i class="{{ platform.icon }} logo logo-hover py-3"></i>
       </a>
       {% endfor %}
     </p>
     <p><a href="{{ '/contact/' | relative_url }}">Post a question</a> in the community to get feedback.</p>
   </div>
 </section>
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

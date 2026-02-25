@@ -1,5 +1,4 @@
 ---
-theme: jekyll-theme-primer
 layout: sub-page
 title: CLEWs
 permalink: /learning_capacity/
@@ -27,7 +26,7 @@ You can find the source code for Jekyll at GitHub:
             <a href="https://www.open.edu/openlearncreate/course/index.php?categoryid=528">Introduction to CLEWs</a>
       </h3>
       <div class="col-md-12 animate-out mb-2">
-          <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto" style="text-align: justify; font-size: 0.875em;">
+          <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto">
             For those starting their journey with CLEWs or seeking foundational knowledge, an open-access course is available online. This course comprises 11 comprehensive lectures that introduce the key concepts of the CLEWs approach, its methodologies, and practical applications. The self-paced format ensures accessibility for individuals worldwide, allowing learners to engage with the material at their convenience.
             </p> 
       </div>
@@ -35,7 +34,7 @@ You can find the source code for Jekyll at GitHub:
         <a href="https://climatecompatiblegrowth.com/energy-modelling-platform/  ">Practical Training under the EMP</a>
       </h3>
         <div class="col-md-12 animate-out mb-2">
-            <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto" style="text-align: justify; font-size: 0.875em;">
+            <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto">
             To deepen understanding and provide hands-on experience, the Climate Compatible Growth (CCG) programme co-hosts 3 week-long capacity-building events under the Energy Modelling Platform (EMP). These intensive workshops bring together experts, policymakers, and aspiring modelers to collaborate and learn in a dynamic environment. Over the course of three structured weeks, participants gain practical skills in applying the CLEWs framework to real-world challenges, engage in peer-to-peer learning, and explore the latest innovations in integrated system modeling. 
           </p> 
         </div>
@@ -67,17 +66,17 @@ You can find the source code for Jekyll at GitHub:
     <a href="https://climatecompatiblegrowth.com">On-demand Training by CCG</a>
   </h3>
   <div class="col-md-12 animate-out mb-2">
-      <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto" style="text-align: justify; font-size: 0.875em;">
+      <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto">
         For those with specific needs or unique project requirements, CCG also offers on-demand training tailored to your objectives. This flexible option allows organizations, teams, or individuals to receive customized guidance on applying the CLEWs framework to their specific context. 
       </p>
   </div>
   <div class="col-md-12 animate-out mb-2">
-      <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto" style="text-align: justify; font-size: 0.875em;">
+      <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto">
         <a href="mailto:ccg@lboro.ac.uk?subject=Inquiry%20about%20CLEWs%20Training&body=Hello,%20I%20would%20like%20to%20know%20more%20about..." class="btn btn-outline">Contact CCG</a>  
       </p>
   </div>
   <div class="col-md-12 animate-out mb-2">
-      <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto" style="text-align: justify; font-size: 0.875em;">
+      <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto">
       Whether through online learning or immersive workshops, the CLEWs community’s goal is to empower participants with the knowledge and tools to address complex resource challenges holistically. By fostering a growing community of CLEWs practitioners, let’s aim to enhance global capacity for sustainable and integrated systems planning.
       </p>
       <p class="alt-lead text-gray text-center col-md-10 mx-auto">

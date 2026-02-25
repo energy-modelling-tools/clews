@@ -1,5 +1,4 @@
 ---
-theme: jekyll-theme-primer
 layout: sub-page
 title: CLEWs
 permalink: /contact/
@@ -7,9 +6,9 @@ permalink: /contact/
 <div class="container-lg p-responsive py-4 py-md-6 ">
 <h2 class="alt-h2 text-center mb-3 mt-lg-6" id="more-than-just-code">
 Become part of our Discourse community!</h2>
-<p class="alt-lead text-gray text-center col-md-15 mx-auto" style="text-align: justify; font-size: 0.875em;">
+<p class="alt-lead text-gray text-center col-md-15 mx-auto">
   CLEWs practitioners by becoming part of our Discourse community—a dedicated online space for collaboration, learning, and sharing.</p>
-  <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto" style="text-align: justify;">This platform allows members to:</p>
+  <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto">This platform allows members to:</p>
 
  <div class="clearfix gutter-spacious">
     <div class="mb-3 mb-md-5 col-md-6 float-left">
@@ -36,7 +35,9 @@ Become part of our Discourse community!</h2>
     </div>
   </div> 
 
-  <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto" style="text-align: justify; font-size: 0.875em;">Joining is simple and free! Connect with practitioners, researchers, and policymakers worldwide, and help shape the future of sustainable resource planning. <a href="https://forum.u4ria.org/"><p style="text-align: justify; font-size: 0.875em;"> <strong>Visit the forum</strong></p></a> to sign up and start engaging today! 
+  <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto">
+    Joining is simple and free! Connect with practitioners, researchers, and policymakers worldwide, and help shape the future of sustainable resource planning.
+    <a href="https://forum.u4ria.org/"><strong>Visit the forum</strong></a> to sign up and start engaging today!
   </p>
 </div>
 <!-- <script>
