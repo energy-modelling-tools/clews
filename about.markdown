@@ -75,7 +75,7 @@ You can find the source code for Jekyll at GitHub:
       </p>
         <!-- /CMS:section -->
     </div>
-<h2 class="aboutpage-subtitle text-left mb-3 mt-lg-6">Virtual CLEWs Symposium 2026</h2>
+<h2 class="aboutpage-subtitle text-left mb-3 mt-lg-6">Announcements</h2>
 <div class="col-md-12 animate-out mb-2">
 <!-- CMS:section id=announcement_clews_symposium -->
 <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto">
