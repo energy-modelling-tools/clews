@@ -25,7 +25,10 @@ You can find the source code for Jekyll at GitHub:
     <div class="col-md-12 animate-out mb-2">
       <!-- CMS:section id=about_growing_of_clews -->
       <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto">
-      The <strong>Climate, Land, Energy and Water Systems (CLEWs)</strong> framework represents a sophisticated approach to modern resource management that has emerged as a vital tool for understanding complex environmental interactions. At its core, CLEWs acknowledges that decisions made about one resource inevitably impact others - for instance, changes in energy production methods can significantly affect water usage and land requirements, while simultaneously influencing climate change outcomes.</p>
+        The <strong>Climate, Land, Energy and Water Systems (CLEWs)</strong> framework represents a sophisticated approach to modern resource management that has emerged as a vital tool for understanding complex environmental interactions. At its core, CLEWs acknowledges that decisions made about one resource inevitably impact others - for instance, changes in energy production methods can significantly affect water usage and land requirements, while simultaneously influencing climate change outcomes.<br>
+        <br>
+        Announcement: <strong>The first virtual CLEWs Symposium</strong> will take place on Tuesday 3 November 2026, from 2:00 - 4:30 PM (GMT), via <a href="https://imperial-ac-uk.zoom.us/webinar/register/WN_fTPLdVKHQA2CFqI7WckqDQ" target="_blank">Zoom</a>. The Annual Symposium for CLEWs will highlight key research and methodological advancements for the CLEWs community, particularly using OSeMOSYS, providing an annual destination for the latest research. Each presentation will be roughly 10 minutes, followed by 5 minutes of Q&amp;A. If you cannot attend the event, the recording will be available on YouTube at a later date.
+      </p>
       <!-- /CMS:section -->
     </div>
     <h2 class="alt-h2 text-center mb-3 mt-lg-6" id="more-than-just-code">Emergence and Methodology</h2>
@@ -75,13 +78,7 @@ You can find the source code for Jekyll at GitHub:
       </p>
         <!-- /CMS:section -->
     </div>
-<h2 class="aboutpage-subtitle text-left mb-3 mt-lg-6">Announcements</h2>
-<div class="col-md-12 animate-out mb-2">
-<!-- CMS:section id=about_announcements -->
-<p class="alt-lead text-gray text-justify-between col-md-15 mx-auto">
-The first virtual CLEWs Symposium will take place on Tuesday 3 November 2026, from 2:00 - 4:30 PM (GMT), via <a href="https://imperial-ac-uk.zoom.us/webinar/register/WN_fTPLdVKHQA2CFqI7WckqDQ" target="_blank">Zoom</a>. The Annual Symposium for CLEWs will highlight key research and methodological advancements for the CLEWs community, particularly using OSeMOSYS, providing an annual destination for the latest research. Each presentation will be roughly 10 minutes, followed by 5 minutes of Q&amp;A. If you cannot attend the event, the recording will be available on YouTube at a later date.
-</p>
-<!-- /CMS:section -->
+
 </div>
 
 </div>
