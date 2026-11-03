@@ -1,15 +1,12 @@
-- name: Discord
-  icon: bi bi-discord
-  url: "#"
-
+- name: EMC Forum
+  icon: bi bi-discourse
+  url: "https://forum.u4ria.org/c/clews/10"
 - name: YouTube
   icon: bi bi-youtube
-  url: https://www.youtube.com/watch?v=Fv427MUIjBw
-
+  url: "https://www.youtube.com/@ccgclimatecompatiblegrowth5847"
 - name: LinkedIn
   icon: bi bi-linkedin
-  url: https://www.linkedin.com/company/clews/posts/
-
+  url: "https://www.linkedin.com/company/clews/posts/"
 - name: GitHub
   icon: bi bi-github
-  url: https://github.com/OSeMOSYS/CLEWs
+  url: "https://github.com/OSeMOSYS/CLEWs"
