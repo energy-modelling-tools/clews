@@ -69,17 +69,13 @@ You can find the source code for Jekyll at GitHub:
    <div class="col-md-12 animate-out mb-2">
         <!-- CMS:section id=about_educational_integration -->
         <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto">
-          CLEWs is increasingly being incorporated into higher education curricula, helping to train the next generation of resource managers and environmental scientists. This integration into academic programs suggests a long-term commitment to the CLEWs approach and recognition of its value in addressing complex environmental challenges.
-        </p>
-        <!-- /CMS:section -->
-    </div>
-    <h2 class="alt-h2 text-center mb-3 mt-lg-6" id="more-than-just-code">Conclusion</h2>
-      <div class="col-md-12 animate-out mb-2">
-        <!-- CMS:section id=about_conclusion -->
-        <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto">
-          The framework's influence continues to grow as it is increasingly incorporated into higher education curricula, helping to train the next generation of resource managers and environmental scientists. This integration into academic programs suggests a long-term commitment to the CLEWs approach and recognition of its value in addressing complex environmental challenges.
+        CLEWs is increasingly being incorporated into higher education curricula, helping to train the next generation of resource managers and environmental scientists. This integration into academic programs suggests a long-term commitment to the CLEWs approach and recognition of its value in addressing complex environmental challenges.<br>
+        <br>
+        The framework's influence continues to grow as it is increasingly incorporated into higher education curricula, helping to train the next generation of resource managers and environmental scientists. This integration into academic programs suggests a long-term commitment to the CLEWs approach and recognition of its value in addressing complex environmental challenges.
       </p>
         <!-- /CMS:section -->
+    </div>
+    
       </div>
     <p class="alt-lead text-gray text-center col-md-10 mx-auto">
       <a href="{{ '/' | relative_url }}" class="btn btn-outline">For more information, visit the CLEWs website</a>
