@@ -75,13 +75,7 @@ You can find the source code for Jekyll at GitHub:
       </p>
         <!-- /CMS:section -->
     </div>
-<h2 class="aboutpage-subtitle text-left mb-3 mt-lg-6">Announcements</h2>
-<div class="col-md-12 animate-out mb-2">
-<!-- CMS:section id=about_announcements -->
-<p class="alt-lead text-gray text-justify-between col-md-15 mx-auto">
-The first <strong>virtual CLEWs Symposium</strong> will take place on Tuesday 3 November 2026, from 2:00 - 4:30 PM (GMT), via <a href="https://imperial-ac-uk.zoom.us/webinar/register/WN_fTPLdVKHQA2CFqI7WckqDQ" target="_blank">Zoom</a>. The Annual Symposium for CLEWs will highlight key research and methodological advancements for the CLEWs community, particularly using OSeMOSYS, providing an annual destination for the latest research. Each presentation will be roughly 10 minutes, followed by 5 minutes of Q&amp;A. If you cannot attend the event, the recording will be available on YouTube at a later date.
-</p>
-<!-- /CMS:section -->
+
 </div>
 
 </div>
