@@ -1,0 +1,20 @@
+events:
+  - title: "EMP-LAC Brazil 2024"
+    image: "../assets/img/EMPLACBrazil2024/IMG_5740.jpg"
+    alt: "EMP-LAC Brazil 2024"
+    description: "Short brief to the event"
+    outputs: []
+
+  - title: "EMP-A Namibia 2023"
+    image: "../assets/img/EMPA2023Namibia/IMG_2532.jpg"
+    alt: "EMP-A Namibia 2023"
+    description: "Short brief to the event"
+    outputs: []
+
+  - title: "EPIC AFRICA 2022"
+    image: "../assets/img/EPICAfrica22/epicAfrica22.png"
+    alt: "EPIC AFRICA"
+    description: "The EPIC Africa SummerSchool on CLEWs-Based modeling concluded on July 12th, marking a successful two weeks of intensive learning and collaboration on building long-term water-energy-food (WEF) security in Africa."
+    outputs: []
+
+adjacent_events: []
