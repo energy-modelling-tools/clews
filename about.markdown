@@ -25,10 +25,18 @@ You can find the source code for Jekyll at GitHub:
     <div class="col-md-12 animate-out mb-2">
       <!-- CMS:section id=about_growing_of_clews -->
       <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto">
-        The <strong>Climate, Land, Energy and Water Systems (CLEWs)</strong> framework represents a sophisticated approach to modern resource management that has emerged as a vital tool for understanding complex environmental interactions. At its core, CLEWs acknowledges that decisions made about one resource inevitably impact others - for instance, changes in energy production methods can significantly affect water usage and land requirements, while simultaneously influencing climate change outcomes.<br>
-        <br>
-        <strong>ANNOUNCEMENTS</strong><br>
-        1. The first virtual <strong>CLEWs Symposium</strong> will take place on <strong>Tuesday 3 November 2026, from 2:00 - 4:30 PM (GMT)</strong>, via <a href="https://imperial-ac-uk.zoom.us/webinar/register/WN_fTPLdVKHQA2CFqI7WckqDQ" target="_blank">Zoom</a>. The Annual Symposium for CLEWs will highlight key research and methodological advancements for the CLEWs community, particularly using OSeMOSYS, providing an annual destination for the latest research. Each presentation will be roughly 10 minutes, followed by 5 minutes of Q&amp;A. If you cannot attend the event, the recording will be available on YouTube <a href="https://www.youtube.com/@ccgclimatecompatiblegrowth5847" target="_blank">here</a> at a later date.<br>
+      The <strong>Climate, Land, Energy and Water Systems (CLEWs)</strong> framework represents a sophisticated approach to modern resource management that has emerged as a vital tool for understanding complex environmental interactions. At its core, CLEWs acknowledges that decisions made about one resource inevitably impact others - for instance, changes in energy production methods can significantly affect water usage and land requirements, while simultaneously influencing climate change outcomes.</p>
+      <!-- /CMS:section -->
+    </div>
+    <h2 class="alt-h2 text-center mb-3 mt-lg-6" id="announcements">Announcements</h2>
+    <div class="col-md-12 animate-out mb-2">
+      <!-- CMS:section id=about_announcements -->
+      <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto">
+        1. The first virtual <strong>CLEWs Symposium</strong> will take place on <strong>Tuesday 3 November 2026, from 2:00 - 4:30 PM (GMT)</strong>, via <a href="https://imperial-ac-uk.zoom.us/webinar/register/WN_fTPLdVKHQA2CFqI7WckqDQ" target="_blank">Zoom</a>. The Annual Symposium for CLEWs will highlight key research and methodological advancements for the CLEWs community, particularly using OSeMOSYS, providing an annual destination for the latest research. Each presentation will be roughly 10 minutes, followed by 5 minutes of Q&amp;A. If you cannot attend the event, the recording will be available on YouTube <a href="https://www.youtube.com/@ccgclimatecompatiblegrowth5847" target="_blank">here</a> at a later date.
+      </p>
+      <!-- /CMS:section -->
+      <!-- CMS:section id=about_announcements_2 -->
+      <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto">
         2. On <strong>Thursday 5 November, from 3:00 - 4:00 PM (GMT)</strong>, there will be a webinar for the latest version, 5.7, of the <strong>Modelling User Interface for OSeMOSYS (MUIO)</strong>. Please sign up <a href="https://imperial-ac-uk.zoom.us/webinar/register/WN_wPBIJ-QNS8ioy450UHOqFA" target="_blank">here</a>.
       </p>
       <!-- /CMS:section -->
@@ -74,19 +82,17 @@ You can find the source code for Jekyll at GitHub:
    <div class="col-md-12 animate-out mb-2">
         <!-- CMS:section id=about_educational_integration -->
         <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto">
-        CLEWs is increasingly being incorporated into higher education curricula, helping to train the next generation of resource managers and environmental scientists. This integration into academic programs suggests a long-term commitment to the CLEWs approach and recognition of its value in addressing complex environmental challenges.<br>
-        <br>
-        The framework's influence continues to grow as it is increasingly incorporated into higher education curricula, helping to train the next generation of resource managers and environmental scientists. This integration into academic programs suggests a long-term commitment to the CLEWs approach and recognition of its value in addressing complex environmental challenges.
-      </p>
+          CLEWs is increasingly being incorporated into higher education curricula, helping to train the next generation of resource managers and environmental scientists. This integration into academic programs suggests a long-term commitment to the CLEWs approach and recognition of its value in addressing complex environmental challenges.
+        </p>
         <!-- /CMS:section -->
     </div>
-
-</div>
-
-</div>
-
-</div>
-    
+    <h2 class="alt-h2 text-center mb-3 mt-lg-6" id="more-than-just-code">Conclusion</h2>
+      <div class="col-md-12 animate-out mb-2">
+        <!-- CMS:section id=about_conclusion -->
+        <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto">
+          The framework's influence continues to grow as it is increasingly incorporated into higher education curricula, helping to train the next generation of resource managers and environmental scientists. This integration into academic programs suggests a long-term commitment to the CLEWs approach and recognition of its value in addressing complex environmental challenges.
+      </p>
+        <!-- /CMS:section -->
       </div>
     <p class="alt-lead text-gray text-center col-md-10 mx-auto">
       <a href="{{ '/' | relative_url }}" class="btn btn-outline">For more information, visit the CLEWs website</a>
