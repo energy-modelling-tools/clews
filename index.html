@@ -8,19 +8,67 @@ permalink: /
 
 <div class="container-lg p-responsive py-4 py-lg-6 my-xl-4 text-center">
     <h1 class="alt-h1 mb-4">The Climate, Land, Energy and Water systems&nbsp;(CLEWs)</h1>
+    <!-- CMS:section id=home_the_climate_land_energy -->
+    <p class="text-gray">
+      The Climate, Land (Food), Energy and Water systems approach (CLEWs) focuses on assessing interlinkages between resource systems in order to understand how these are related with each other, where pressure points exist, and how to minimize trade-offs while potentiating synergies.
+    </p>
+    <!-- /CMS:section -->
 </div>
 </div><!-- ends .full-width that started in header.html -->
 
 <h2 class="alt-h2 text-center mb-3 mt-lg-6" id="more-than-just-code">Highlights</h2>
 
-{% include frontpage_intro.html %}
-
+<section class="container-lg p-responsive py-5 py-md-6 my-lg-6">
+    <div class="clearfix gutter-spacious">
+      <div class="mb-3 mb-md-5 col-md-6 float-left">
+        <h2 class="alt-h3 mb-2">{% octicon terminal height:28 class:"fill-blue d-inline mr-2" aria-label:terminal %} Flexibility</h2>
+        <!-- CMS:section id=home_flexibility -->
+        <p class="text-gray">As a framework, CLEWs can be utilized whichever aspect you see it. This also means it applicability to various modelling tools (e.g. the open-source OSeMOSYS), where you can then implement scenario planning, giving stakeholders the capabilities to develop proactive strategies.</p>
+        <!-- /CMS:section -->
+      </div>
+      <div class="mb-3 mb-md-5 col-md-6 float-left">
+        <h2 class="alt-h3 mb-2">{% octicon server height:28 class:"fill-blue d-inline mr-2" aria-label:server %} Holistic Approach</h2>
+        <!-- CMS:section id=home_holistic_approach -->
+        <p class="text-gray">The CLEWs framework provides a comprehensive view of resource systems by examining climate, land, energy, and water as interconnected, rather than in isolation. This helps to understand the complex interlinkages between systems and assess where policy, from different sectors, may interact.</p>
+        <!-- /CMS:section -->
+      </div>
+    </div>
+    <div class="clearfix gutter-spacious">
+      <div class="mb-3 mb-md-5 col-md-6 float-left">
+        <h2 class="alt-h3 mb-2">{% octicon beaker height:28 class:"fill-blue d-inline mr-2" aria-label:beaker %} Sustainable Development Alignment</h2>
+        <!-- CMS:section id=home_sustainable_development_alignment -->
+        <p class="text-gray">As highlighted by some of the studies highlighted on the publications page, CLEWs explicitly connects resource management strategies with broader sustainability goals. This therefore, for example, allows for simultaneous assessment of environmental impact, economic feasibility, and social implications.</p>
+        <!-- /CMS:section -->
+      </div>
+      <div class="mb-3 mb-md-5 col-md-6 float-left">
+        <h2 class="alt-h3 mb-2">{% octicon tools height:28 class:"fill-blue d-inline mr-2" aria-label:tools %} Institutional Support</h2>
+        <!-- CMS:section id=home_institutional_support -->
+        <p class="text-gray">The CLEWs Framework is backed by international organizations like UNDESA and IAEA, which are actively building technical capacity, especially in developing countries. This support enhances the framework's credibility and potential for global implementation.</p>
+        <!-- /CMS:section -->
+      </div>
+    </div>
+    <div class="clearfix gutter-spacious">
+      <div class="mb-3 mb-md-5 col-md-6 float-left">
+        <h2 class="alt-h3 mb-2">{% octicon code height:28 class:"fill-blue d-inline mr-2" aria-label:code %} Educational Integration</h2>
+        <!-- CMS:section id=home_educational_integration -->
+        <p class="text-gray">CLEWs is being increasingly incorporated into higher education curricula, which ensures the development of a new generation of environmental professionals which trained in systemic, nexus thinking approaches to sustainable development issues.</p>
+        <!-- /CMS:section -->
+      </div>
+    </div>
+    <p class="text-center">
+      <a href="{{ '/about/' | relative_url }}" class="btn btn-outline">Learn more about CLEWs;</a>
+    </p>
+</section>
 
 <section class="bg-gray-light">
   <div class="container-lg p-responsive py-5 py-md-6 ">
 
     <h2 class="alt-h2 text-center mb-3 mt-lg-6" id="more-than-just-code">Growing of CLEWs</h2>
-    {%include intro_text.html%}
+    <!-- CMS:section id=home_growing_of_clews -->
+    <p class="alt-lead text-gray text-justify-between col-md-10 mx-auto">
+      International organizations like UNDESA and IAEA are promoting CLEWs through capacity building in the global south, and the framework is increasingly being incorporated into higher education curricula. While CLEWs can be applied using various modelling tools such as OSeMOSYS and LEAP, challenges remain in tool accessibility and building technical capacity, with both becoming key areas of development in recent years.
+    </p>
+    <!-- /CMS:section -->
 
   <p class="text-center">
       <a href="{{ '/applications/' | relative_url }}" class="btn btn-outline">See more &rarr;</a>
@@ -32,64 +80,21 @@ permalink: /
 <section class="">
   <div class="container-lg p-responsive py-5 py-md-6">
     <h2 class="alt-h2 text-center mb-3 mt-lg-6" id="join-the-revolution">The CLEWS community</h2>
-    <!-- <p class="alt-lead text-gray text-center col-md-10 mx-auto">The CLEWS community</a>.</p> -->
   </div>
   <div class="page-overflow-hidden">
-    <!-- <div class="featured-orgs text-center p-2 m-2">
-      {% for org in site.featured_orgs %}
-      <a href="https://github.com/{{ org }}" class="animate-in">{% avatar user=org size=80 %}</a>
-      {% endfor %}
-    </div> -->
     <div class="featured-orgs text-center p-2 m-2">
-        {% for org in site.data.orgs %}
-          {% assign org_href = org.url %}
+        {% for partner in site.data.orgs.partners %}
+          {% assign org_href = partner.url %}
           {% unless org_href contains '://' %}
             {% assign org_href = org_href | relative_url %}
           {% endunless %}
           <a href="{{ org_href }}" class="animate-in">
-            {% if org.type == 'github' %}
-              {% avatar user=org.github size=80 %}
-            {% else %}
-              <img src="{{ org.logo | relative_url }}" width="auto" max-width = "160" height="{{org.height}}" margin = "10" alt="{{ org.display_name }}">
-            {% endif %}
+              <img src="{{ partner.logo | relative_url }}" width="auto" height="{{ partner.height | default: 80 }}" alt="{{ partner.display_name }}">
           </a>
         {% endfor %}
     </div>
   </div>
 </section>
-
-<!-- <section id="get-started" class="mini-section mt-6">
-  <div class="container-lg p-responsive">
-    <h2 class="alt-h2 text-center mb-3 mt-lg-6">Get started today</h2>
-    <p class="alt-lead text-gray text-center col-md-10 mx-auto"> <a href="mailto:">Contact us</a> to learn more about CLEWS</p>
-
-    <div class="mt-md-6 clearfix gutter-spacious">
-      <div class="mb-4 col-md-6 float-left">
-        <h3 class="alt-h3 mb-2">Sign up for an account</h3>
-        <p class="text-gray"><a href="https://github.com/signup/free" target="_blank">Sign up</a> for an individual GitHub account for free.</p>
-        <p class="text-gray">If you have a personal GitHub account, simply <a href="link holder">do somthing</a> here</p>
-      </div>
-    <div class="mb-4 col-md-6 float-left">
-        <h3 class="alt-h3 mb-2">Create an organization</h3>
-        <p class="text-gray">An organization is your official presence on GitHub. <a href="https://github.com/organizations/new">Create a free organization</a> after you log in. Open source projects stay free.</p>
-        <p class="text-gray">Prefer to host your own GitHub instance? <a href="mailto:government@github.com">Contact us</a> or <a href="https://enterprise.github.com">request a free trial</a> to get started.
-      </div> 
-    </div>
-    <div class="mb-md-6 clearfix gutter-spacious">
-      <div class="mb-4 col-md-6 float-left">
-        <h3 class="alt-h3 mb-2">Join the Peer Group</h3>
-        <p class="text-gray">Join the <a href="https://government-community.githubapp.com/government">semi-private group</a> of government employees using GitHub to share best practices for software collaboration.</p>
-        <p class="text-gray">You will have access once the government email associated with your account is verified.
-      </div>
-      <div class="mb-4 col-md-6 float-left">
-        <h3 class="alt-h3 mb-2">Learn More</h3>
-        <p class="text-gray">Browse training resources at <a href="CLEWS_LINK">Somewhere</a>.</p>
-        <p class="text-gray">Contact <a href="mailto:bitliuzx@gmail.com">Someone</a> to bring CLEWS training to your team.</p>
-      </div>
-    </div>
-  </div>
-</section> -->
-
 
 <section id="contact-a-human" class="bg-gray-light">
   <div class="container-lg p-responsive py-5 py-md-6 text-center">
@@ -99,7 +104,6 @@ permalink: /
     <h3 class="alt-h2 mb-4">Explore CLEWs on</h3>
     <p class="f2-light text-white">
       {% for platform in site.data.social_media %}
-      <!-- {{ platform.name }} -->
       <a href="{{ platform.url }}" class="px-2">
           <i class="{{ platform.icon }} logo logo-hover py-3"></i>
       </a>

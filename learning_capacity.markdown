@@ -43,28 +43,41 @@ You can find the source code for Jekyll at GitHub:
             <!-- /CMS:section --> 
         </div>
           <div class="my-4 my-lg-6 clearfix gutter-spacious">
-              <div class="col-md-4 float-left animate-out mb-4">
-                <h3 class="alt-h3 mb-3">EMP-LAC Brazil 2024</h3>
-                <p><a href="" target="_blank">
-                  <img src="{{ site.baseurl }}/assets/img/EMPLACBrazil2024/IMG_5740.jpg" class="img-border" alt="Picture 1"/></a>
-                </p>
-                <small>Short brief to the event</small>
-              </div>
-              <div class="col-md-4 float-left animate-out mb-4">
-                <h3 class="alt-h3 mb-3">EMP-A Namibia 2023</h3>
-                <p><a href="https://github.com/showcases/open-data" target="_blank">
-                  <img src="{{ site.baseurl }}/assets/img/EMPA2023Namibia/IMG_2532.jpg" class="img-border" alt="Picture 2"/></a>
-                </p>
-                <small>Short brief to the event</small>
-              </div>
-              <div class="col-md-4 float-left animate-out mb-4">
-                <h3 class="alt-h3 mb-3">EPIC AFRICA 2022</h3>
-                <p><a href="https://www.linkedin.com/posts/epicafrica22_summerschool-clews-wef-activity-7218570631544532992-g1As" target="_blank">
-                  <img src="{{ site.baseurl }}/assets/img/EPICAfrica22/epicAfrica22.png" class="img-border" alt=""/>EPIC AFRICA</a>
-                </p>
-                <small>The EPIC Africa SummerSchool on CLEWs-Based modeling concluded on July 12th, marking a successful two weeks of intensive learning and collaboration on building long-term water-energy-food (WEF) security in Africa.</small>
-              </div>
+            <h3 class="alt-h3 text-center mb-3">Explore EMP Events</h3>
+            {% for event in site.data.learning_events.events %}
+            <div class="col-md-4 float-left animate-out mb-4">
+              <h3 class="alt-h3 mb-3">{{ event.title }}</h3>
+              <p><img src="{{ event.image }}" class="img-border" alt="{{ event.alt }}"/></p>
+              <p class="text-gray">{{ event.description }}</p>
+              {% if event.outputs and event.outputs.size > 0 %}
+              <details>
+                <summary class="btn btn-sm btn-outline">Show Outputs</summary>
+                <ul class="mt-2">
+                  {% for output in event.outputs %}
+                  <li>{{ output.flag }} <strong>{{ output.country }}</strong>:
+                    <a href="{{ output.url }}" target="_blank">{{ output.title }}</a>
+                  </li>
+                  {% endfor %}
+                </ul>
+              </details>
+              {% endif %}
+            </div>
+            {% endfor %}
           </div>
+          {% if site.data.learning_events.adjacent_events and site.data.learning_events.adjacent_events.size > 0 %}
+          <div class="clearfix gutter-spacious mt-5">
+            <div class="col-md-12 animate-out mb-4">
+              <h3 class="alt-h3 mb-3">EMP-Adjacent Events</h3>
+              <ul>
+                {% for adjacent in site.data.learning_events.adjacent_events %}
+                <li>{{ adjacent.flag }}
+                  <a href="{{ adjacent.url }}" target="_blank">{{ adjacent.title }}</a>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+          {% endif %}
     </div>
   <h3 class="alt-h3 text-float-left mb-3 mt-lg-6" id="more-than-just-code">
     <a href="https://climatecompatiblegrowth.com">On-demand Training by CCG</a>
